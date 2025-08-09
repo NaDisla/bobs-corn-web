@@ -1,0 +1,35 @@
+.container {
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 0 12px;
+    font-family: system-ui, Arial, sans-serif;
+}
+h1 { margin-bottom: 16px; }
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+}
+label { display: block; margin-bottom: 6px; }
+input {
+    width: calc(100% - 2px);
+    box-sizing: border-box;
+    padding: 8px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #0ea5e9;
+    color: white;
+    cursor: pointer;
+}
+button:disabled { opacity: 0.7; cursor: default; }
+.status { margin-top: 12px; }
+.status.ok { color: #16a34a; }
+.status.warn { color: #b45309; }
+.total { margin-top: 8px; }
